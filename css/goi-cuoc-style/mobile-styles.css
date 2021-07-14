@@ -111,6 +111,12 @@ html, body {
   margin-bottom: 2px;
 }
 
+.bottom-element {
+  margin-top: 30px;
+  padding-top: 10px; 
+  border-top: 3px solid #3e8ed0;
+}
+
 .is-4 {
   color: #F54748;
 }
@@ -128,7 +134,7 @@ html, body {
 .question {
   background-color: #2B2B2B;
   margin-top: 30px;
-  padding-top: 30px; 
+  padding-top: 30px;
   width: 100%;
   text-align: center;
 }

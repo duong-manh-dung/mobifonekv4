@@ -67,6 +67,8 @@ html, body {
 
 .box {
   margin-right: 20px;
+  position: relative;
+  height: 600px;
 }
 
 .box:last-child {
@@ -116,6 +118,14 @@ html, body {
 .check {
   color: hsl(217, 71%, 53%);
   margin-right: 10px;
+}
+
+.bottom-element {
+  border-top: 3px solid #3e8ed0;
+  padding-top: 10px;
+  position: absolute;
+  width: 90%;
+  bottom: 0;
 }
 
 .is-4 {
