@@ -134,7 +134,45 @@ html, body {
   text-align: center;
 }
 
+.question {
+  width: 100%;
+  text-align: center;
+  background-color: #2B2B2B;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.is-outlined {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Main Styles */
+/* =================== */
+/* Footer Styles */
+
+.footer {
+  background-color: #2B2B2B;
+  color: #fff;
+}
+
+.left-content {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.right-content {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.is-3 {
+  color: #fff !important;
+}
+
+/* Footer Styles */
 
 .sub-active {
   background-color: hsl(217, 71%, 53%) !important;

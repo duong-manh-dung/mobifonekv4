@@ -125,6 +125,19 @@ html, body {
   text-align: center;
 }
 
+.question {
+  background-color: #2B2B2B;
+  margin-top: 30px;
+  padding-top: 30px; 
+  width: 100%;
+  text-align: center;
+}
+
+.is-outlined {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Main Styles */
 /* =================== */
 /* Footer Styles */
