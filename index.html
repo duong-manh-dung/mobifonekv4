@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="css/goi-cuoc-style/desktop-styles.css">
-  <link rel="stylesheet" media="only screen and (min-width: 401px) and (max-width: 1023px)" href="css/goi-cuoc-style/tablet-styles.css">
-  <link rel="stylesheet" media="only screen and (max-width: 400px)" href="css/goi-cuoc-style/mobile-styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 737px) and (max-width: 1023px)" href="css/goi-cuoc-style/tablet-styles.css">
+  <link rel="stylesheet" media="only screen and (max-width: 736px)" href="css/goi-cuoc-style/mobile-styles.css">
 </head>
 
 <body>
@@ -2604,11 +2604,65 @@
     </div>
   </footer>
 
+  <!-- Popup nhập số điện thoại -->
+  <div class="modal phone">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Nhập số điện thoại:</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <input class="input" type="text" placeholder="số điện thoại">
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success confirm">Xác nhận</button>
+        <button class="button cancel">Huỷ</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Popup nhập mã OTP -->
+  <div class="modal otp">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Nhập mã OTP:</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <input class="input" type="text" placeholder="mã OTP">
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success send">Gửi</button>
+        <button class="button cancel">Huỷ</button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Popup thông báo -->
+  <div class="modal noti">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Đăng kí thành công</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <h1>Chúc mừng</h1>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button cancel">Đóng</button>
+      </footer>
+    </div>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/toggle-menu.js" charset="utf-8"></script>
   <script src="js/switch-pack.js" charset="utf-8"></script>
   <script src="js/see-more.js" charset="utf-8"></script>
   <script src="js/hide-line.js" charset="utf-8"></script>
+  <script src="js/popup.js" charset="utf-8"></script>
 </body>
 
 </html>
