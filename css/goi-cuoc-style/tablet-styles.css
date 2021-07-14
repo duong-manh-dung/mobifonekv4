@@ -1,0 +1,142 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+.banner img {
+  border-radius: 10px;
+  box-shadow: 0 0 19px 5px rgba(0, 0, 0, 0.49);
+}
+
+/* Header Styles */
+/* =================== */
+/* Main Styles */
+.main {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.package-button {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin: 10px 5px 5px 0;
+}
+
+.button:hover {
+  background-color: hsl(217, 71%, 53%) !important;
+  color: hsl(0, 0%, 96%) !important;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.hot-pack, .prepaid-pack, .postpaid-pack, .data-pack, .vas-pack, .flexible-pack {
+  margin: 0 0 0 30px;
+}
+
+.always-visible {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 30px;
+}
+
+.see-more {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  margin-right: 10px;
+}
+
+.box:last-child {
+  margin-bottom: 24px;
+}
+
+.box:nth-last-child(2n-1) {
+  margin-right: 30px;
+}
+
+.media {
+  display: block;
+}
+
+.media-content {
+  overflow-x: visible;
+}
+
+.param {
+  margin-bottom: 0 !important;
+}
+
+.pack-title {
+  text-align: center;
+  background-color: #3e8ed0;
+  border-radius: 8px;
+  padding: 5px 5px;
+  margin-bottom: 10px;
+}
+
+.pack-name {
+  display: inline;
+  color: #fff !important;
+}
+
+.sub-title {
+  width: 50%;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px !important;
+  border-bottom: 4px solid #fff;;
+}
+
+.check {
+  color: hsl(217, 71%, 53%);
+}
+
+.is-4 {
+  color: #F54748;
+}
+
+.sign-up {
+  width: 100%;
+  text-align: center;
+}
+
+.see-more-button {
+  width: 100%;
+  text-align: center;
+}
+
+/* Main Styles */
+
+.sub-active {
+  background-color: hsl(217, 71%, 53%) !important;
+  color: hsl(0, 0%, 96%) !important;
+}
