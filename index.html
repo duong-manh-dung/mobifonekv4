@@ -12,11 +12,13 @@
   <meta name="keywords" content="mobifone, GÓI CƯỚC HOT, GÓI TRẢ TRƯỚC,
       GÓI TRẢ SAU, GÓI DATA, GÓI CAM KẾT, GÓI SUBSIDY">
   <title>mobifoneplus - Trang chủ MobifonePlus</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="css/goi-cuoc-style/desktop-styles.css">
   <link rel="stylesheet" media="only screen and (min-width: 737px) and (max-width: 1023px)" href="css/goi-cuoc-style/tablet-styles.css">
   <link rel="stylesheet" media="only screen and (max-width: 736px)" href="css/goi-cuoc-style/mobile-styles.css">
+  <link rel="stylesheet" href="css/goi-cuoc-style/phone-input-styles.css">
 </head>
 
 <body>
@@ -2582,8 +2584,49 @@
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <p class="popup-name"></p>
-        <input class="input" type="text" placeholder="số điện thoại">
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <div class="content">
+                  <p class="param">
+                  <div class="pack-title">
+                    <h1 class="pack-name">V20</h1>
+                    <p class="sub-title">Gói trả trước</p>
+                  </div>
+                  <i class="check fas fa-check"></i> Gọi nội mạng MobiFone 100đ/phút
+                  <hr class="info-line">
+                  <br><i class="check fas fa-check"></i> Nghe ngoại mạng được cộng 590đ/phút
+                  <hr class="info-line">
+                  <br><i class="check fas fa-check"></i> Gọi ngoại mạng 590đ/phút
+                  <hr class="info-line">
+                  <br><i class="check fas fa-check"></i> 20 phút gọi ngoại mạng
+                  <hr class="info-line">
+                  <br><i class="check fas fa-check"></i> 4Gb Data tốc độ cao (Hết tốc độ cao hạ băng thông xuống 128kbps)
+                  <hr class="info-line">
+                  <br><i class="check fas fa-check"></i> Chu kỳ gói cước 30 ngày
+                  <hr class="info-line">
+                  </p>
+                </div>
+                <div class="container">
+                  <form id="login" onsubmit="process(event)">
+                    <p style="font-size: 2em;">Nhập số điện thoại:</p>
+                    <input id="phone" type="tel" name="phone" placeholder="Số điện thoại" />
+                    <input type="submit" class="btn" value="Verify" />
+                  </form>
+                  <div class="alert alert-info" style="display: none"></div>
+                  <div class="alert alert-error" style="display: none"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content">
+              Điền đầy đủ thông tin số điện thoại của bạn. Chúng tôi sẽ gửi cho
+              bạn một mã xác nhận OTP.
+              <br>
+            </div>
+          </div>
+        </div>
       </section>
       <footer class="modal-card-foot">
         <button class="button is-success confirm">Xác nhận</button>
@@ -2627,13 +2670,14 @@
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/toggle-menu.js" charset="utf-8"></script>
   <script src="js/switch-pack.js" charset="utf-8"></script>
   <script src="js/see-more.js" charset="utf-8"></script>
   <script src="js/hide-line.js" charset="utf-8"></script>
   <script src="js/popup.js" charset="utf-8"></script>
-  <script src="js/get-info-pack.js" charset="utf-8"></script>
+  <script src="js/check-phone.js" charset="utf-8"></script>
 </body>
 
 </html>
