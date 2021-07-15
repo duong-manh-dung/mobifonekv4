@@ -143,8 +143,16 @@ html, body {
   text-align: center;
 }
 
+.fa-angle-double-down {
+  color: #F54748;
+}
+
+.fa-angle-double-up {
+  color: #F54748;
+}
+
 .question {
-  background-color: #2B2B2B;
+  background-color: #3e8ed0;
   margin-top: 30px;
   padding-top: 30px;
   width: 100%;
@@ -162,11 +170,11 @@ html, body {
 
 .footer {
   width: 100%;
-  background-color: #2B2B2B;
+  background-color: #3e8ed0;
   color: #fff;
   padding-bottom: 48px;
-  display: grid;
-  grid-template-columns: 50% 30%;
+  /* display: grid;
+  grid-template-columns: 50% 30%; */
 }
 
 .left-content {
