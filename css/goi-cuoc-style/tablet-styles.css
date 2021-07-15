@@ -144,17 +144,12 @@ html, body {
   text-align: center;
 }
 
-.question {
-  width: 100%;
-  text-align: center;
-  background-color: #2B2B2B;
-  padding-top: 30px;
-  margin-top: 30px;
+.fa-angle-double-down {
+  color: #F54748;
 }
 
-.is-outlined {
-  width: 80%;
-  margin: 0 auto;
+.fa-angle-double-up {
+  color: #F54748;
 }
 
 /* Main Styles */
@@ -162,7 +157,8 @@ html, body {
 /* Footer Styles */
 
 .footer {
-  background-color: #2B2B2B;
+  margin-top: 30px;
+  background-color: #3e8ed0;
   color: #fff;
 }
 

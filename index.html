@@ -2546,15 +2546,12 @@
         </div>
       </div>
     </div>
-    <div class="question">
-      <a href="http://mobile.mobifonekv4.vn/index.php?controller=hotro" class="button is-info is-inverted is-outlined">Câu hỏi thường gặp</a>
-    </div>
   </main>
   <footer class="footer">
     <div class="left-content">
       <h3 class="title is-3">CÔNG TY CỔ PHẦN DỊCH VỤ GIA TĂNG MOBIFONE</h3>
       <p class="footer-param">
-        <i class="footer-icon fas fa-home"></i> &nbsp; <strong style="color: #fff;">Trụ sở chính:</strong>
+        <i class="fas fa-hotel"></i> &nbsp; <strong style="color: #fff;">Trụ sở chính:</strong>
         Tầng 3A, Tòa Harec, 4A Láng Hạ, Phường Thành Công, Quận Ba Đình, Thành phố Hà Nội
       </p>
       <p class="footer-param">
@@ -2612,8 +2609,10 @@
                   <form id="login" onsubmit="process(event)">
                     <p style="font-size: 2em;">Nhập số điện thoại:</p>
                     <input id="phone" type="tel" name="phone" placeholder="Số điện thoại" />
-                    <input type="submit" class="btn" value="Verify" />
                   </form>
+                  <button type="button" class="btn otp-btn" style="margin:10px 0;">Nhận OTP</button>
+                  <input class="input otp-text" type="text" placeholder="Nhập OTP"
+                  style="display: block; width:150px;">
                   <div class="alert alert-info" style="display: none"></div>
                   <div class="alert alert-error" style="display: none"></div>
                 </div>
@@ -2630,24 +2629,6 @@
       </section>
       <footer class="modal-card-foot">
         <button class="button is-success confirm">Xác nhận</button>
-        <button class="button cancel">Huỷ</button>
-      </footer>
-    </div>
-  </div>
-
-  <!-- Popup nhập mã OTP -->
-  <div class="modal otp">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Nhập mã OTP:</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <input class="input" type="text" placeholder="mã OTP">
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success send">Gửi</button>
         <button class="button cancel">Huỷ</button>
       </footer>
     </div>
@@ -2678,6 +2659,7 @@
   <script src="js/hide-line.js" charset="utf-8"></script>
   <script src="js/popup.js" charset="utf-8"></script>
   <script src="js/check-phone.js" charset="utf-8"></script>
+  <script src="js/show-otp.js" charset="utf-8"></script>
 </body>
 
 </html>

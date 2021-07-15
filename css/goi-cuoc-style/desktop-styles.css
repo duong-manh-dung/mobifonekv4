@@ -151,24 +151,12 @@ html, body {
   color: #F54748;
 }
 
-.question {
-  background-color: #3e8ed0;
-  margin-top: 30px;
-  padding-top: 30px;
-  width: 100%;
-  text-align: center;
-}
-
-.is-outlined {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /* Main Styles */
 /* =================== */
 /* Footer Styles */
 
 .footer {
+  margin-top: 30px;
   width: 100%;
   background-color: #3e8ed0;
   color: #fff;

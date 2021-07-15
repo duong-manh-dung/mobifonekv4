@@ -16,35 +16,18 @@ $('.btn-hot').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#hot').addClass('sub-active');
     $('.hot').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#hot').addClass('sub-active');
       $('.hot').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#hot').addClass('sub-active');
-      $('.hot').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#hot').addClass('sub-active');
-        $('.hot').show();
-      });
     });
   });
 });
@@ -67,35 +50,18 @@ $('.btn-prepaid').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#prepaid').addClass('sub-active');
     $('.prepaid').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#prepaid').addClass('sub-active');
-      $('.prepaid').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#prepaid').addClass('sub-active');
-      $('.prepaid').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#prepaid').addClass('sub-active');
-        $('.prepaid').show();
-      });
+      $('.hoprepaidt').show();
     });
   });
 });
@@ -118,35 +84,18 @@ $('.btn-postpaid').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#postpaid').addClass('sub-active');
     $('.postpaid').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#postpaid').addClass('sub-active');
       $('.postpaid').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#postpaid').addClass('sub-active');
-      $('.postpaid').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#postpaid').addClass('sub-active');
-        $('.postpaid').show();
-      });
     });
   });
 });
@@ -169,35 +118,18 @@ $('.btn-data').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#data').addClass('sub-active');
     $('.data').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#data').addClass('sub-active');
       $('.data').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#data').addClass('sub-active');
-      $('.data').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#data').addClass('sub-active');
-        $('.data').show();
-      });
     });
   });
 });
@@ -220,35 +152,18 @@ $('.btn-vas').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#vas').addClass('sub-active');
     $('.vas').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#vas').addClass('sub-active');
       $('.vas').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#vas').addClass('sub-active');
-      $('.vas').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#vas').addClass('sub-active');
-        $('.vas').show();
-      });
     });
   });
 });
@@ -271,35 +186,18 @@ $('.btn-subsidy').click(function() {
   // Nhấn nút xác nhận tại màn nhập số điện thoại
   $('.confirm').click(function() {
     $('.phone').removeClass('is-active');
-    $('.otp').addClass('is-active');
+    $('.noti').addClass('is-active');
     $('#subsidy').addClass('sub-active');
     $('.subsidy').show();
+    $('.otp-text').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
-      $('.otp').removeClass('is-active');
+      $('.noti').removeClass('is-active');
       // $('.otp').removeClass('is-active');
       // $('.noti').removeClass('is-active');
       $('#subsidy').addClass('sub-active');
       $('.subsidy').show();
-    });
-
-    // Nhấn nút gửi tại màn nhập số điện thoại
-    $('.send').click(function() {
-      // $('.phone').removeClass('is-active');
-      $('.otp').removeClass('is-active');
-      $('.noti').addClass('is-active');
-      $('#subsidy').addClass('sub-active');
-      $('.subsidy').show();
-
-      // Nhấn nút đóng tại màn nhập OTP
-      $('.cancel').click(function() {
-        $('.noti').removeClass('is-active');
-        // $('.otp').removeClass('is-active');
-        // $('.noti').removeClass('is-active');
-        $('#subsidy').addClass('sub-active');
-        $('.subsidy').show();
-      });
     });
   });
 });

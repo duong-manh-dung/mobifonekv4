@@ -132,7 +132,7 @@ html, body {
 }
 
 .question {
-  background-color: #2B2B2B;
+  background-color: #3e8ed0;
   margin-top: 30px;
   padding-top: 30px;
   width: 100%;
@@ -149,7 +149,7 @@ html, body {
 /* Footer Styles */
 
 .footer {
-  background-color: #2B2B2B;
+  background-color: #3e8ed0;
   color: #fff;
   padding-bottom: 48px;
 }
