@@ -52,7 +52,7 @@ html, body {
 }
 
 .hot-pack, .prepaid-pack, .postpaid-pack, .data-pack, .vas-pack, .flexible-pack {
-  margin: 0 30px;
+  margin: 0 0 0 20px;
 }
 
 .always-visible {
@@ -77,7 +77,7 @@ html, body {
 }
 
 .box:nth-last-child(3n-2) {
-  margin-right: 0;
+  margin-right: 20px;
 }
 
 .media {

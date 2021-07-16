@@ -54,7 +54,7 @@ html, body {
 }
 
 .hot-pack, .prepaid-pack, .postpaid-pack, .data-pack, .vas-pack, .flexible-pack {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
 }
 
 .always-visible {
@@ -69,7 +69,7 @@ html, body {
 }
 
 .box {
-  margin-right: 10px;
+  margin-right: 20px;
   position: relative;
   height: 600px;
 }
@@ -79,7 +79,7 @@ html, body {
 }
 
 .box:nth-last-child(2n-1) {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .media {
