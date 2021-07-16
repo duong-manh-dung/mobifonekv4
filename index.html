@@ -2584,37 +2584,31 @@
       <section class="modal-card-body">
         <div class="card">
           <div class="card-content">
-            <div class="media">
+            <div class="media media-popup">
               <div class="media-content">
-                <div class="content">
+                <div class="content content-popup">
                   <p class="param">
                   <div class="pack-title">
                     <h1 class="pack-name">V20</h1>
                     <p class="sub-title">Gói trả trước</p>
                   </div>
                   <i class="check fas fa-check"></i> Gọi nội mạng MobiFone 100đ/phút
-                  <hr class="info-line">
                   <br><i class="check fas fa-check"></i> Nghe ngoại mạng được cộng 590đ/phút
-                  <hr class="info-line">
                   <br><i class="check fas fa-check"></i> Gọi ngoại mạng 590đ/phút
-                  <hr class="info-line">
                   <br><i class="check fas fa-check"></i> 20 phút gọi ngoại mạng
-                  <hr class="info-line">
                   <br><i class="check fas fa-check"></i> 4Gb Data tốc độ cao (Hết tốc độ cao hạ băng thông xuống 128kbps)
-                  <hr class="info-line">
                   <br><i class="check fas fa-check"></i> Chu kỳ gói cước 30 ngày
-                  <hr class="info-line">
                   </p>
                 </div>
                 <div class="container">
                   <form id="login" onsubmit="process(event)">
-                    <p style="font-size: 2em;">Nhập số điện thoại:</p>
-                    <input id="phone" type="tel" name="phone" placeholder="Số điện thoại" />
+                    <p style="font-size: 1.4em;">Nhập số điện thoại:</p>
+                    <input id="phone" type="tel" name="phone" placeholder="(+84)" />
+                    <button type="button" class="btn otp-btn" style="margin:10px 0 0 0;">Nhận OTP</button>
                   </form>
-                  <button type="button" class="btn otp-btn" style="margin:10px 0;">Nhận OTP</button>
                   <p class="check-empty"></p>
                   <input class="input otp-text" type="text" placeholder="Nhập OTP"
-                  style="display: block; width:150px;">
+                  style="display: block; width:150px; margin-top:10px;">
                   <div class="alert alert-info" style="display: none"></div>
                   <div class="alert alert-error" style="display: none"></div>
                 </div>
@@ -2622,8 +2616,8 @@
             </div>
 
             <div class="content">
-              Điền đầy đủ thông tin số điện thoại của bạn. Chúng tôi sẽ gửi cho
-              bạn một mã xác nhận OTP.
+              <pre style="background-color:#fff;padding-top:0;padding-bottom:0;margin-bottom:0;">Điền đầy đủ thông tin số điện thoại của bạn để nhận mã xác nhận OTP.
+              </pre>
               <br>
             </div>
           </div>

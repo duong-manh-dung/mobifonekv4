@@ -7,10 +7,10 @@ $('.btn-hot').click(function() {
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
     $('#hot').addClass('sub-active');
     $('.hot').show();
+    $('.otp-text').hide();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -21,11 +21,9 @@ $('.btn-hot').click(function() {
     $('.hot').show();
     $('.otp-text').hide();
 
-    // Nhấn nút huỷ tại màn nhập OTP
+    // Nhấn nút huỷ tại màn chúc mừng
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#hot').addClass('sub-active');
       $('.hot').show();
     });
@@ -40,11 +38,11 @@ $('.btn-prepaid').click(function() {
 
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
+    $('.otp-text').hide();
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
     $('#prepaid').addClass('sub-active');
     $('.prepaid').show();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -54,12 +52,11 @@ $('.btn-prepaid').click(function() {
     $('#prepaid').addClass('sub-active');
     $('.prepaid').show();
     $('.otp-text').hide();
+    $('.check-empty').hide();
 
-    // Nhấn nút huỷ tại màn nhập OTP
+    // Nhấn nút huỷ tại màn chúc mừng
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#prepaid').addClass('sub-active');
       $('.hoprepaidt').show();
     });
@@ -75,10 +72,10 @@ $('.btn-postpaid').click(function() {
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
+    $('.otp-text').hide();
     $('#postpaid').addClass('sub-active');
     $('.postpaid').show();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -88,12 +85,11 @@ $('.btn-postpaid').click(function() {
     $('#postpaid').addClass('sub-active');
     $('.postpaid').show();
     $('.otp-text').hide();
+    $('.check-empty').hide();
 
-    // Nhấn nút huỷ tại màn nhập OTP
+    // Nhấn nút huỷ tại màn chúc mừng
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#postpaid').addClass('sub-active');
       $('.postpaid').show();
     });
@@ -109,10 +105,10 @@ $('.btn-data').click(function() {
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
+    $('.otp-text').hide();
     $('#data').addClass('sub-active');
     $('.data').show();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -122,12 +118,11 @@ $('.btn-data').click(function() {
     $('#data').addClass('sub-active');
     $('.data').show();
     $('.otp-text').hide();
+    $('.check-empty').hide();
 
-    // Nhấn nút huỷ tại màn nhập OTP
+    // Nhấn nút huỷ tại màn chúc mừng
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#data').addClass('sub-active');
       $('.data').show();
     });
@@ -143,10 +138,10 @@ $('.btn-vas').click(function() {
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
+    $('.otp-text').hide();
     $('#vas').addClass('sub-active');
     $('.vas').show();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -156,12 +151,11 @@ $('.btn-vas').click(function() {
     $('#vas').addClass('sub-active');
     $('.vas').show();
     $('.otp-text').hide();
+    $('.check-empty').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#vas').addClass('sub-active');
       $('.vas').show();
     });
@@ -177,10 +171,10 @@ $('.btn-subsidy').click(function() {
   // Nhấn nút huỷ tại màn nhập số điện thoại
   $('.cancel').click(function() {
     $('.phone').removeClass('is-active');
-    // $('.otp').removeClass('is-active');
-    // $('.noti').removeClass('is-active');
+    $('.otp-text').hide();
     $('#subsidy').addClass('sub-active');
     $('.subsidy').show();
+    $('.check-empty').hide();
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -190,26 +184,31 @@ $('.btn-subsidy').click(function() {
     $('#subsidy').addClass('sub-active');
     $('.subsidy').show();
     $('.otp-text').hide();
+    $('.check-empty').hide();
 
     // Nhấn nút huỷ tại màn nhập OTP
     $('.cancel').click(function() {
       $('.noti').removeClass('is-active');
-      // $('.otp').removeClass('is-active');
-      // $('.noti').removeClass('is-active');
       $('#subsidy').addClass('sub-active');
       $('.subsidy').show();
     });
   });
 });
 
+//click vào màn hình bên ngoài popup
 $('.modal-background').click(function() {
   $('.phone').removeClass('is-active');
   $('.otp').removeClass('is-active');
   $('.noti').removeClass('is-active');
+  $('.otp-text').hide();
+  $('.check-empty').hide();
 });
 
+//click vào nút x trên popup
 $('.delete').click(function() {
   $('.phone').removeClass('is-active');
   $('.otp').removeClass('is-active');
   $('.noti').removeClass('is-active');
+  $('.otp-text').hide();
+  $('.check-empty').hide();
 });

@@ -157,23 +157,24 @@ html, body {
 
 .footer {
   margin-top: 30px;
-  width: 100%;
   background-color: #3e8ed0;
   color: #fff;
-  padding-bottom: 48px;
-  /* display: grid;
-  grid-template-columns: 50% 30%; */
+  padding-bottom: 30px;
 }
 
 .left-content {
-  margin-right: 60px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
 }
 
 .right-content {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
 }
 
 .is-3 {
-  text-align: left;
   color: #fff !important;
 }
 
@@ -182,4 +183,20 @@ html, body {
 .sub-active {
   background-color: hsl(217, 71%, 53%) !important;
   color: hsl(0, 0%, 96%) !important;
+}
+
+/* Popup Styles */
+
+.media-popup {
+  margin-bottom: 0 !important
+}
+
+.content-popup {
+  height: 220px;
+  overflow-y: auto;
+}
+
+.check-popup {
+  margin-top: 10px;
+  color: hsl(217, 71%, 53%);
 }

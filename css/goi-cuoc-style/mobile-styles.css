@@ -181,3 +181,19 @@ html, body {
   background-color: hsl(217, 71%, 53%) !important;
   color: hsl(0, 0%, 96%) !important;
 }
+
+/* Popup Styles */
+
+.media-popup {
+  margin-bottom: 0 !important
+}
+
+.content-popup {
+  height: 220px;
+  overflow-y: auto;
+}
+
+.check-popup {
+  margin-top: 10px;
+  color: hsl(217, 71%, 53%);
+}
