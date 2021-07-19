@@ -11,6 +11,7 @@ $('.btn-hot').click(function() {
     $('.hot').show();
     $('.otp-text').hide();
     $('.check-empty').hide();
+    $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -26,6 +27,7 @@ $('.btn-hot').click(function() {
       $('.noti').removeClass('is-active');
       $('#hot').addClass('sub-active');
       $('.hot').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -43,6 +45,7 @@ $('.btn-prepaid').click(function() {
     $('#prepaid').addClass('sub-active');
     $('.prepaid').show();
     $('.check-empty').hide();
+    $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -59,6 +62,7 @@ $('.btn-prepaid').click(function() {
       $('.noti').removeClass('is-active');
       $('#prepaid').addClass('sub-active');
       $('.hoprepaidt').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -76,6 +80,7 @@ $('.btn-postpaid').click(function() {
     $('#postpaid').addClass('sub-active');
     $('.postpaid').show();
     $('.check-empty').hide();
+    $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -92,6 +97,7 @@ $('.btn-postpaid').click(function() {
       $('.noti').removeClass('is-active');
       $('#postpaid').addClass('sub-active');
       $('.postpaid').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -109,6 +115,7 @@ $('.btn-data').click(function() {
     $('#data').addClass('sub-active');
     $('.data').show();
     $('.check-empty').hide();
+    $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -125,6 +132,7 @@ $('.btn-data').click(function() {
       $('.noti').removeClass('is-active');
       $('#data').addClass('sub-active');
       $('.data').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -142,6 +150,7 @@ $('.btn-vas').click(function() {
     $('#vas').addClass('sub-active');
     $('.vas').show();
     $('.check-empty').hide();
+    $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -158,6 +167,7 @@ $('.btn-vas').click(function() {
       $('.noti').removeClass('is-active');
       $('#vas').addClass('sub-active');
       $('.vas').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -175,6 +185,7 @@ $('.btn-subsidy').click(function() {
     $('#subsidy').addClass('sub-active');
     $('.subsidy').show();
     $('.check-empty').hide();
+    $('.otp-notie').html('Nhập số điện thoại để nhận mã OTP đăng ký');
   });
 
   // Nhấn nút xác nhận tại màn nhập số điện thoại
@@ -191,6 +202,7 @@ $('.btn-subsidy').click(function() {
       $('.noti').removeClass('is-active');
       $('#subsidy').addClass('sub-active');
       $('.subsidy').show();
+      $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
     });
   });
 });
@@ -202,6 +214,7 @@ $('.modal-background').click(function() {
   $('.noti').removeClass('is-active');
   $('.otp-text').hide();
   $('.check-empty').hide();
+  $('.otp-noti').html('Nhập số điện thoại để nhận mã OTP đăng ký');
 });
 
 //click vào nút x trên popup
@@ -211,4 +224,5 @@ $('.delete').click(function() {
   $('.noti').removeClass('is-active');
   $('.otp-text').hide();
   $('.check-empty').hide();
+  $('.otp-notie').html('Nhập số điện thoại để nhận mã OTP đăng ký');
 });

@@ -197,3 +197,11 @@ html, body {
   margin-top: 10px;
   color: hsl(217, 71%, 53%);
 }
+
+.otp-noti {
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}

@@ -113,7 +113,8 @@ html, body {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px !important;
-  border-bottom: 4px solid #fff;;
+  border-bottom: 4px solid #fff;
+  ;
 }
 
 .check {
@@ -154,7 +155,6 @@ html, body {
 /* Main Styles */
 /* =================== */
 /* Footer Styles */
-
 .footer {
   margin-top: 30px;
   background-color: #3e8ed0;
@@ -179,24 +179,30 @@ html, body {
 }
 
 /* Footer Styles */
-
 .sub-active {
   background-color: hsl(217, 71%, 53%) !important;
   color: hsl(0, 0%, 96%) !important;
 }
 
 /* Popup Styles */
-
 .media-popup {
   margin-bottom: 0 !important
 }
 
 .content-popup {
-  height: 220px;
+  height: 320px;
   overflow-y: auto;
 }
 
 .check-popup {
   margin-top: 10px;
   color: hsl(217, 71%, 53%);
+}
+
+.otp-noti {
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 0.75rem;
 }

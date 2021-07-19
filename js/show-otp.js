@@ -8,5 +8,6 @@ $('.otp-btn').click(function() {
   else {
     $('.check-empty').hide();
     $('.otp-text').show();
+    $('.otp-noti').html('Mã OTP đã gửi xuống SĐT của bạn. Nhập mã để tiếp tục đăng ký');
   }
 });
